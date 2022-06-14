@@ -1,0 +1,53 @@
+@import './_Header.scss';
+@import './_FirstSection.scss';
+@import './_SecondSection.scss';
+@import './_ThirdSection.scss';
+@import './_FourthSection.scss';
+@import './_FifthSection.scss';
+
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.app {
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    overflow: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    overflow-x: hidden !important;
+}
+
+
+.wallpaper {
+    margin-top: -0.085rem !important;
+    z-index: -1 !important;
+
+    img {
+        width: 300vh !important;
+    }
+}
+
+
+@media (max-width: 785px) {
+    .wallpaper {
+        margin-top: 8.085rem !important;
+    }
+}
+@media (max-width: 700px) {
+    .wallpaper {
+        margin-top: 8.385rem !important;
+    }
+}
+@media (max-width: 401px) {
+    .wallpaper {
+        margin-top: 8.885rem !important;
+    }
+}

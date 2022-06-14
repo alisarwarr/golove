@@ -1,0 +1,159 @@
+.header {
+    &_toolbar {
+        display: flex !important;
+        background-color: white !important;
+
+        &_logo {
+            margin-left: 5rem !important;
+            margin-top: 0.765rem !important;
+            padding-top: 0.225rem !important;
+            padding-bottom: 0.225rem !important;
+            flex: 0.965 !important;
+
+            img {
+                cursor: pointer !important;
+            }
+        }
+
+        &_btns {
+            a {
+                color: black !important;
+                text-decoration: none !important;
+                font-family: sans-serif !important;
+                font-size: 0.9rem !important;
+                padding-right: 2.25rem !important;
+            }
+
+            &_menus {
+                li {
+                    padding-left: 1rem !important;
+                    padding-right: 1rem !important;
+                    padding-top: 0.7rem !important;
+                    padding-bottom: 0.7rem !important;
+
+                    a {
+                        color: black !important;
+                        font-weight: 400 !important;
+                        letter-spacing: 0.15px !important;
+                        word-spacing: 0.95px !important;
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+
+@media (max-width: 1199px) {
+    .header {
+        &_toolbar {
+            height: 2rem !important;
+
+            &_logo {
+                margin-left: 5.45rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.835rem !important;
+                    padding-right: 1.765rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1099px) {
+    .header {
+        &_toolbar {
+            &_logo {
+                margin-left: 3.85rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.795rem !important;
+                    letter-spacing: 0.25px !important;
+                    padding-right: 1.525rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 979px) {
+    .header {
+        &_toolbar {
+            &_logo {
+                margin-left: 2.95rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.735rem !important;
+                    letter-spacing: 0.15px !important;
+                    word-spacing: 0.75px !important;
+                    padding-right: 1.325rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 859px) {
+    .header {
+        &_toolbar {
+            &_logo {
+                margin-left: 3.35rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.695rem !important;
+                    padding-right: 1.615rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 769px) {
+    .header {
+        &_toolbar {
+            &_logo {
+                margin-left: 3.5rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.665rem !important;
+                    padding-right: 1.365rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 679px) {
+    .header {
+        &_toolbar {
+            &_logo {
+                margin-left: 3.5rem !important;
+            }
+
+            &_btns {
+                a {
+                    font-size: 0.65rem !important;
+                    padding-right: 1.665rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 599px) {
+    .header {
+        &_toolbar {
+            height: 3.5rem !important;
+
+            &_logo {
+                margin-left: 2.15rem !important;
+            }
+        }
+    }
+}

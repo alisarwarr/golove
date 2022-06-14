@@ -1,0 +1,260 @@
+.fourthsection {
+    margin-top: 6.6rem !important;
+    background-image: linear-gradient(194.3deg, #BA76D1 8.63%, #E9ABFF 155.6%) !important;
+    padding-bottom: 5.05rem !important;
+    width: 100% !important;
+
+    &_content {
+        margin-left: 8rem !important;
+        margin-top: 3rem !important;
+
+        &_text {
+            color: white !important;
+            font-size: 2.35rem !important;
+            margin-left: -0.1rem !important;
+        }
+    
+        &_para {
+            margin-top: 1.25rem !important;
+            font-size: 0.95rem !important;
+            line-height: 1.195rem !important;
+            width: 40% !important;
+        }
+    
+        &_pics {
+            margin-top: 1.25rem !important;
+            display: flex !important;
+            align-items: center !important;
+            width: 24% !important;
+
+            &_playstore {
+                width: 16rem !important;
+            }
+
+            &_appstore {
+                width: 16rem !important;
+            }
+        }    
+    }
+}
+
+
+@media (max-width: 1299px) {
+    .fourthsection {
+        padding-bottom: 4.95rem !important;
+
+        &_content {
+            margin-left: 8rem !important;
+            margin-top: 3rem !important;
+    
+            &_text {
+                font-size: 2.3rem !important;
+            }
+        
+            &_para {
+                margin-top: 1.05rem !important;
+                font-size: 0.885rem !important;
+                line-height: 1.135rem !important;
+            }
+        
+            &_pics {
+                &_appstore {
+                    margin-left: 0.65rem !important;
+                }
+            }
+        }
+    }    
+}
+@media (max-width: 1199px) {
+    .fourthsection {
+        padding-bottom: 4.45rem !important;
+
+        &_content {
+            margin-left: 8rem !important;
+            margin-top: 3rem !important;
+    
+            &_text {
+                font-size: 2.2rem !important;
+            }
+        
+            &_para {
+                margin-top: 0.95rem !important;
+                line-height: 1.2rem !important;
+            }
+        
+            &_pics {
+                margin-left: -0.025rem !important;
+                width: 27% !important;
+
+                &_appstore {
+                    margin-left: 0.25rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1159px) {
+    .fourthsection {
+        &_content {
+            &_pics {
+                width: 24% !important;
+
+                div {
+                    width: 30rem !important;
+                }
+
+                &_appstore {
+                    margin-left: 0.5rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1129px) {
+    .fourthsection {
+        padding-bottom: 4.35rem !important;
+
+        &_content {
+            margin-left: 8rem !important;
+            margin-top: 3rem !important;
+
+            &_text {
+                font-size: 2.15rem !important;
+            }
+        
+            &_para {
+                margin-top: 0.85rem !important;
+                font-size: 0.845rem !important;
+                line-height: 1.155rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 1084px) {
+    .fourthsection {
+        &_content {
+            &_para {
+                font-size: 0.825rem !important;
+                line-height: 1.255rem !important;
+                width: 45% !important;
+            }
+
+            &_pics {
+                width: 26% !important;
+
+                &_appstore {
+                    margin-left: 0.5rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 969px) {
+    .fourthsection {
+        &_content {
+            &_para {
+                font-size: 0.805rem !important;
+                line-height: 1.05rem !important;
+                width: 50% !important;
+            }
+
+            &_pics {
+                width: 28% !important;
+
+                &_appstore {
+                    margin-left: 0.55rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 855px) {
+    .fourthsection {
+        &_content {
+            &_para {
+                font-size: 0.8rem !important;
+                line-height: 1.025rem !important;
+                width: 55% !important;
+            }
+
+            &_pics {
+                margin-top: 1.15rem !important;
+                width: 30% !important;
+
+                &_appstore {
+                    margin-left: 0.55rem !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 785px) {
+    .fourthsection {
+        &_content {
+            margin: 0 auto !important;
+            margin-top: 3.25rem !important;
+
+            &_text {
+                text-align: center !important;
+            }
+
+            &_para {
+                padding-top: 0.5rem !important;
+                width: 60% !important;
+                text-align: center !important;
+                margin: 0 auto !important;
+            }
+
+            &_pics {
+                margin: 0 auto !important;
+                margin-top: 0.95rem !important;
+                width: 15rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 604px) {
+    .fourthsection {
+        &_content {
+            &_para {
+                width: 70% !important;
+            }
+        }
+    }
+}
+@media (max-width: 519px) {
+    .fourthsection {
+        &_content {
+            &_text {
+                font-size: 2rem !important;
+            }
+
+            &_para {
+                font-size: 0.705rem !important;
+                line-height: 0.935rem !important;
+                width: 80% !important;
+            }
+        }
+    }
+}
+@media (max-width: 399px) {
+    .fourthsection {
+        &_content {
+            margin-left: 0.2rem !important;
+
+            &_text {
+                font-size: 1.85rem !important;
+            }
+
+            &_para {
+                font-size: 0.7rem !important;
+                line-height: 0.905rem !important;
+                width: 71% !important;
+            }
+
+            &_pics {
+                width: 14rem !important;
+            }
+        }
+    }
+}
